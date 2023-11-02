@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+.vertical_line{
+    border-right: 1px solid #F7F7F7;
+    height: 60px;
+
+}
+.input-type>input{
+    height: 100%;
+    width: 90%;
+    padding-left: 8px;
+    background-color: #f8f8f8;
+}
+.input-type{
+    width: 45%;
+    height: 50px;
+    background-color: #f8f8f8;
+}
+.container-section,footer{
+    width: 85vw;
+    margin: auto;
+}
+.my-container{
+    width: 85vw;
+    margin: auto;
+    overflow-x: scroll;
+   
+}
+
+.my-list{
+    white-space: nowrap;
+}
+#categories-section,footer{
+    width: 85vw;
+    margin-top: auto;
+  
+}
+
+.my-list>img{
+    display: inline-block;
+}
+
+.my-card{
+
+    width: 200px;
+    display: inline-block !important;
+    margin-inline: 15px;
+    /* border: 2px solid red ; */
+    padding-bottom: 2px;
+}
+
+.time{
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    width: fit-content;
+    font-size: 10px;
+    padding: 2px 5px;
+    font-weight: 900;
+}
+
+.product-name{
+    font-size: 15px;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.product-weight{
+    color: #828282;
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.category-section{
+    width: 85vw;
+    margin: auto;
+}
+.my-card>img{
+    width: 90%;
+    margin: auto;
+}
+
+.footer-r-3{
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    line-height: 18px;
+    margin: 12px;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.footer-r-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer-r2-c1{
+    width: 40%;
+}
+
+#footer-link{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   
+}
+
+#footer-link>button{
+    width: 120px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    font-size: 12px;
+    border-radius: 5px;
+    background-color: rgb(33, 33, 75);
+}
+
+#social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-r-1{
+    display: flex;
+}
+
+#footer-table-1{
+    flex: 2;
+}
+#footer-table-2{
+    flex: 3;
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    font-size: 14px;
+    color: #6b6b6b;
+    padding-bottom: 10px;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.my-container::-webkit-scrollbar{
+    display: none;
+}
+.sliding-div::-webkit-scrollbar{
+    display: none;
+}
