@@ -258,6 +258,29 @@ media query breakpoints
     .input-type{
         width: 70%;
     }
+    .footer-r-2{
+        flex-direction: column !important;
+    }
+    #footer-r2-c1{
+        width: 90vw !important;
+        margin-bottom: 20px;
+        margin-left: 50px;
+    }
+    .footer-r-1{
+        flex-direction: column !important;
+    }
+    #footer-table-1{
+        flex: 1;
+    }
+    #footer-table-1>h3, #footer-table-2>h3{
+        text-align: center;
+    }
+    #footer-table-2{
+        flex: 1;
+    }
+    td{
+        text-align: center;
+    }
 }
 @media screen and (min-width:481px) and (max-width:790px) {
     #hero-section2{
@@ -321,5 +344,27 @@ media query breakpoints
     }
     .nav-search{
         width: 90%;
+    }
+    .footer-r-2{
+        flex-direction: column !important;
+    }
+    #footer-r2-c1{
+        width: 90vw !important;
+        margin-bottom: 20px;
+    }
+    .footer-r-1{
+        flex-direction: column !important;
+    }
+    #footer-table-1{
+        flex: 1;
+    }
+    #footer-table-1>h3, #footer-table-2>h3{
+        text-align: center;
+    }
+    #footer-table-2{
+        flex: 1;
+    }
+    td{
+        text-align: center;
     }
 }
